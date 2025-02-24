@@ -9,7 +9,7 @@
   <meta property="og:image:height" content="630"/>
 
 
-  <title>基于遥操作的智慧病房护理系统</title>
+  <title>2024深圳市智能机器人灵巧手大赛</title>
   
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -94,7 +94,7 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">2024深圳市智能机器人灵巧手大赛</h1>
           <div class="is-size-3 publication-authors">
-            2024.03-2024.12
+            2024.11-2024.12
           </div>
         </div>
     </div>
@@ -261,43 +261,7 @@
         <h2 class="title is-3">简介</h2>
         <div class="content has-text-justified">
           <p>
-            本系统旨在提升病房护理的智能化和便捷性，特别适用于需要远程照护的医疗场景。系统由一张配备滑轨的病床、安装在滑轨上的机械臂（配备灵巧手）以及两个摄像头组成，实现远程操作下的精准护理。当病人需要获取物品时，操作人员可通过远程控制系统完成任务。首先，机械臂利用摄像头进行全局环境感知，环视病房寻找目标物品，并估计其大致位置。随后，机械臂自动移动至物品附近，确保抓取位置的精准性。在操作环节，远程操作者通过视觉遥操作系统精确控制机械臂抓取目标物品。成功抓取后，机械臂将物品稳妥地递送至病人手中，实现安全、精准、高效的护理支持。该系统可有效减少护理人员的工作负担，提高病房护理的自动化水平，同时为行动不便或长期卧床的病人提供更加便捷的人性化服务。
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-  </div>
-</section>
-	
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <div class="container">
-        <div class="item">
-          <p style="margin-bottom: 30px">
- 
-        <video poster="" id="tree" autoplay controls muted loop height="100%">
-          <source src="static/figures/videos/overview.mp4"
-          type="video/mp4">
-        </video>
-        </p>
-        </div>
-    </div>
-  </div>
-  </div>
-</section>
-    
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-
-        <h2 class="title is-3">简介</h2>
-        <div class="content has-text-justified">
-          <p>
-          本系统旨在提升病房护理的智能化和便捷性，特别适用于需要远程照护的医疗场景。系统由一张配备滑轨的病床、安装在滑轨上的机械臂（配备灵巧手）以及两个摄像头组成，实现远程操作下的精准护理。当病人需要获取物品时，操作人员可通过远程控制系统完成任务。首先，机械臂利用摄像头进行全局环境感知，环视病房寻找目标物品，并估计其大致位置。随后，机械臂自动移动至物品附近，确保抓取位置的精准性。在操作环节，远程操作者通过视觉遥操作系统精确控制机械臂抓取目标物品。成功抓取后，机械臂将物品稳妥地递送至病人手中，实现安全、精准、高效的护理支持。该系统可有效减少护理人员的工作负担，提高病房护理的自动化水平，同时为行动不便或长期卧床的病人提供更加便捷的人性化服务。
+            初赛采用示教方式来抓取8个物品放置在指定颜色的塑料盘中，最后再抓取扫码枪扫描桌上的条形码，完成任务。决赛物品位置摆放随机，因此需要估计物品在三维空间的位置。首先用腕部相机进行手眼标定，然后同时获取RGB图像和深度图像。接着对RGB图像进行示例分割，结合深度图重建物体的3D点云。利用三维点云计算出物体的3D boxes，这就能得到物体的6D位姿。
           </p>
         </div>
       </div>
